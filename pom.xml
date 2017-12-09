@@ -34,14 +34,19 @@
   <description>Library for Maven-OSGi integration</description>
 
   <scm>
-    <connection>scm:svn:http://svn.apache.org/repos/asf/maven/shared/trunk/maven-osgi</connection>
-    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/maven/shared/trunk/maven-osgi</developerConnection>
-    <url>http://svn.apache.org/viewvc/maven/shared/trunk/maven-osgi</url>
+    <connection>scm:git:https://gitbox.apache.org/repos/asf/maven-osgi.git</connection>
+    <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/maven-osgi.git</developerConnection>
+    <url>https://github.com/apache/maven-osgi/tree/${project.scm.tag}</url>
+    <tag>HEAD</tag>
   </scm>
   <issueManagement>
     <system>jira</system>
     <url>https://issues.apache.org/jira/browse/MSHARED/component/12326435</url>
   </issueManagement>
+  <ciManagement>
+    <system>Jenkins</system>
+    <url>https://builds.apache.org/job/maven-box/job/maven-osgi/</url>
+  </ciManagement>
   <distributionManagement>
     <site>
       <id>apache.website</id>
